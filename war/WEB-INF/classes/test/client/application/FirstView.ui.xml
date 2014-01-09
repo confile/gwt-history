@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
+	ui:generateLocales='default'>
+
+
+	<g:FlowPanel>
+		<g:HTMLPanel>you are on FirstPresenter</g:HTMLPanel>
+		<g:FocusPanel ui:field="button">
+			<g:HTMLPanel>click me</g:HTMLPanel>
+		</g:FocusPanel>
+	</g:FlowPanel>	
+</ui:UiBinder>
